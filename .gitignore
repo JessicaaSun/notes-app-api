@@ -1,0 +1,59 @@
+# Visual Studio & Rider settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build & Publish artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.nuspec
+*.nupkg
+
+# Logs & Generated files
+logs/
+*.log
+*.tlog
+*.cache
+*.db
+
+# Secrets & Configuration
+appsettings.json
+appsettings.*.json
+secrets.json
+.env
+
+# Dependencies (NuGet & Node)
+packages/
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Database & Migrations
+*.mdf
+*.ldf
+*.sqlite
+migrations/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+*.swp
+
+# Rider/JetBrains IDE
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.bak
